@@ -4,6 +4,8 @@
 
 O desafio era criar uma área para assinatura no canvas, e baixar ela.
 
+[Clique aqui para acessar o demo](https://signatureteste.netlify.app)
+
 ## Para Utilizar
 
 Para o funcionamento do projeto é necessário:
