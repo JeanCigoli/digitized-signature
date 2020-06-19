@@ -58,8 +58,11 @@ function App() {
     const canvas = document.querySelector('canvas');
 
     setPad(new SignaturePad(canvas, {
-      minWidth: 2,
-      maxWidth: 2,
+      minWidth: 1.5,
+      maxWidth: 1.5,
+      minDistance: 1,
+      throttle: 0,
+      velocityFilterWeight: 0.4
     }));
 
     resizeCanvas(canvas);
