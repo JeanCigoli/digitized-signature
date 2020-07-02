@@ -59,10 +59,10 @@ function App() {
 
     setPad(new SignaturePad(canvas, {
       minWidth: 1.5,
-      maxWidth: 1.5,
+      maxWidth: 2,
       minDistance: 1,
-      throttle: 0,
-      velocityFilterWeight: 0.4
+      throttle: 10,
+      velocityFilterWeight: 0.6
     }));
 
     resizeCanvas(canvas);
